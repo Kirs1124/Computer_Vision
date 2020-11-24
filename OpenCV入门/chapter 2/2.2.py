@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("lena.bmp", 0)
+img = cv2.imread("../chapter 3/lena.bmp", 0)
 cv2.imshow("before", img)
 for i in range(10, 100):
     for j in range(80, 100):

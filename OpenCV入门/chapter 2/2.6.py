@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-img = cv2.imread("lenacolor.png")
+img = cv2.imread("../chapter 3/lenacolor.png")
 cv2.imshow("before", img)
 print("访问img[0,0]=", img[0, 0])
 print("访问img[0,0,0]=", img[0, 0, 0])

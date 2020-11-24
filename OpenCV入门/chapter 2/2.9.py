@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("lena.bmp", 0)
+img = cv2.imread("../chapter 3/lena.bmp", 0)
 # 测试读取、修改单个像素值
 print("读取像素点img.item(3,2)=", img.item(3, 2))
 img.itemset((3, 2), 255)

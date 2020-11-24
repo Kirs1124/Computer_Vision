@@ -1,5 +1,5 @@
 import cv2
-lena = cv2.imread("lenacolor.png")
+lena = cv2.imread("../chapter 3/lenacolor.png")
 b,g,r = cv2.split(lena)
 bgr =  cv2.merge([b,g,r])
 rgb = cv2.merge([r,g,b])

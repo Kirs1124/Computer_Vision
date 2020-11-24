@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("lenacolor.png")
+img = cv2.imread("../chapter 3/lenacolor.png")
 cv2.imshow("lena1", img)
 b = img[:, :, 0]
 g = img[:, :, 1]

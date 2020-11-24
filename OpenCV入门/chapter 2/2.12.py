@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread("lenacolor.png")
+img = cv2.imread("../chapter 3/lenacolor.png")
 cv2.imshow("before", img)
 print("访问img.item(0,0,0)=",img.item(0,0,0))
 print("访问img.item(0,0,1)=",img.item(0,0,1))
